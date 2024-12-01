@@ -1,0 +1,115 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #8dc998;
+    color: white;
+    padding: 20px;
+    font-size: 1.8em;
+}
+
+/* Market Data Section */
+.market-data {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Input Field */
+#search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #8dc998;
+    color: white;
+    font-size: 1em;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination Section */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#prev-page, #next-page {
+    background-color: #8dc998;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prev-page:hover, #next-page:hover {
+    background-color: #005f56;
+}
+
+#page-number {
+    font-size: 1em;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+    color: #00796b !important;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    table th, table td {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    #search-box {
+        padding: 8px;
+    }
+
+    #prev-page, #next-page {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}

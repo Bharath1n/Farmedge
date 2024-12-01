@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmEdge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./images/mainlogo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./images/mainlogo.png" alt="FarmEdge" height="50" class="me-2"> 
+                <span class="fw-bold fs-4">FarmEdge</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./market.html">Market</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">E-Commerce</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Irrigation Schedule</a></li>
+                            <li><a class="dropdown-item" href="#">Soil Quality</a></li>
+                            <li><a class="dropdown-item" href="#">Air Quality</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="./chatbot.html">Suggestions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- cards -->
+     <div class="card" id="card1">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/farmed.jpg" class="card-img-top" alt="..." height="280">
+            <div class="card-body">
+              <h5 class="card-title">Farm education</h5>
+              <p class="card-text"> Empowering farmers with knowledge for modern farming. </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/soil.jpg" class="card-img-top" alt="..." height="280">
+            <div class="card-body">
+              <h5 class="card-title"> Soil Quality Monitoring</h5>
+              <p class="card-text">Learn to assess and improve soil health.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/fertilizer.jpg" class="card-img-top" alt="..." height="280">
+            <div class="card-body">
+              <h5 class="card-title">Organic fertilizer</h5>
+              <p class="card-text">Learn to assess and improve soil health.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section -->
+    <section class="about-section text-center">
+        <div class="container">
+            <h2>About us </h2>
+            <p>FarmEdge is a digital platform aimed at modernizing agriculture through education, smart tools, and personalized solutions for farmers across the globe.</p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-light text-dark text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 FarmEdge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

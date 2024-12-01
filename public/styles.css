@@ -1,0 +1,47 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fb;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+    color: #00796b !important;
+    transition: color 0.3s;
+}
+/* About Section */
+.about-section {
+    background-color: #69b376;
+    color: white;
+    padding: 10px;
+}
+
+.about-section h2 {
+    font-weight: 500;
+}
+/* Animations */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-section, .footer {
+    animation: fadeInUp 1s ease-in-out;
+}
