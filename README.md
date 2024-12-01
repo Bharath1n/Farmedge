@@ -1,0 +1,1 @@
+# This is a Farmedge website which is made to help farmers adapt modern agricultural practices and get technological access and information about agriculture
